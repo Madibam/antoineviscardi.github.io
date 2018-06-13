@@ -31,3 +31,25 @@ Summer 2017
 Managed the renewal and the migration of the division's Intranet to the new Canadian standard.
 Assured the liaison between representatives of the different directorates of the division, Public Work Canada and Service Canada.<br/>
 Summer 2015
+
+-----
+## Technologies
+![Python][Python]
+![Java][Java]
+![C][C]
+![Javascript][Javascript]
+![SQL][SQL]
+![Matlab][Matlab]
+
+-----
+## Professional Objectives
+Pursuing my graduate studies in the field of machine learning
+
+Acquiring enough knowledge and experience to enable me to have a significant impact on the development of the new artificial intelligence technologies
+
+[Python]: {{ "/assets/img/python.png" | absolute_url }} "Python"
+[Java]: {{ "/assets/img/java.png" | absolute_url }} "Java"
+[C]: {{ "/assets/img/c.png" | absolute_url }} "C"
+[Javascript]: {{ "/assets/img/javascript.png" | absolute_url }} "Javascript"
+[SQL]: {{ "/assets/img/sql.png" | absolute_url }} "SQL"
+[Matlab]: {{ "/assets/img/matlab.png" | absolute_url }} "Matlab"
