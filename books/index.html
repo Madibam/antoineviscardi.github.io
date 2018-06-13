@@ -1,0 +1,23 @@
+---
+layout: default
+title: Books
+---
+<h1> {{ page.title }}</h1>
+{% if site.categories.book-current %}
+	<h2>Books I am currently reading</h2>
+
+	<ul class="post">
+	{% for post in site.categories.book-current %}
+		<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+{% endif %}
+
+{% if site.categories.book %}
+	<h2>Most notable books I read</h2>
+	<ul class="post">
+	{% for post in site.categories["book"] %}
+		<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+{% endif %}
