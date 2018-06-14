@@ -1,0 +1,23 @@
+---
+layout: default
+title: Projects
+---
+<h1>{{ page.title }}</h1>
+
+{% if site.categories.projects-current %}
+	<h2>Projects I am currently working on</h2>
+	<ul class="posts">
+	{% for post in site.categories.projects-current %}
+		<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	</ul>
+	{% endfor %}
+{% endif %}
+
+{% if site.categories.projects %}
+	<h2>Past Projects</h2>
+	<ul class="posts">
+	{% for post in site.categories.projects %}
+		<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+{% endif %}

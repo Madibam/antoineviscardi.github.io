@@ -24,6 +24,14 @@ a:hover {
   text-decoration: underline;
 }
 
+a, a:visited {
+  color: blue;
+}
+
+li.active a {
+  color: black;   
+}
+
 h1 {
   font-size: 3em;
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
