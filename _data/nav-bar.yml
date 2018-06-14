@@ -1,0 +1,19 @@
+nav-links:
+
+  - title:  Home
+    url:    /
+
+  - title:  About
+    url:    /about/
+
+  - title:  CV
+    url:    /cv/
+
+  - title:  Books
+    url:    /books/
+
+  - title:  Projects
+    url:    /projects/
+
+  - title:  Blog
+    url:    /blog/
