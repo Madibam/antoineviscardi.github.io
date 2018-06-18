@@ -3,7 +3,6 @@ layout: default
 title: Curiculum Vitea
 ---
 # Antoine Viscardi
------
 ## Education
 **Master of Science in Applied Computing**<br/>
 University of Toronto<br/>
