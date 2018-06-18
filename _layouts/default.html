@@ -1,34 +1,42 @@
 <!DOCTYPE html>
+
 <html>
+
 	<head>
 		<title>{{ page.title }}</title>
-		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
+	
 	<body>
-		<nav>
+		<header class="margins">
+			<nav>
     		<ul>
-        		{% for link in site.data.nav-bar.nav-links %}
-	        		<li class="{% if link.url == page.url %}active{% endif %}">
-	        			<a href="{{ link.url }}">{{ link.title }}</a>
-	        		</li>
-	        	{% endfor %}
+      		{% for link in site.data.nav-bar.nav-links %}
+        		<li class="{% if link.url == page.url %}active{% endif %}">
+        			<a href="{{ link.url }}">{{ link.title }}</a>
+        		</li>
+        	{% endfor %}
     		</ul>
-		</nav>
+			</nav>
+		</header>
 
-		<div class="container">
-		
-		{{ content }}
-		
-		</div><!-- /.container -->
-		
-		<footer>
-    		<ul>
-        		<li><a href="mailto:antoine.viscardi@gmail.com">antoine.viscardi@gmail.com</a></li>
-        		<li><a href="https://github.com/antoineviscardi">github.com/antoineviscardi</a></li>
+		<main class="margins">
+			{{ content }}
+		</main>
+			
+		<footer class="margins">
+  		<ul>
+    		<li>
+    			<a href="mailto:antoine.viscardi@gmail.com">antoine.viscardi@gmail.com</a>
+    		</li>
+    		<li>
+    			<a href="https://github.com/antoineviscardi">github.com/antoineviscardi</a>
+    		</li>
 			</ul>
 		</footer>
+
 	</body>
+
 </html>
 
 
