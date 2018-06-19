@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Project Test"
 date: 2018-06-13
 ---

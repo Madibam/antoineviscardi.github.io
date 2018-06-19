@@ -4,16 +4,16 @@ nav-links:
     url:    /
 
   - title:  About
-    url:    /about/
+    url:    /about.html
 
   - title:  CV
     url:    /cv/
 
   - title:  Books
-    url:    /books/
+    url:    /books.html
 
   - title:  Projects
-    url:    /projects/
+    url:    /projects.html
 
   - title:  Blog
-    url:    /blog/
+    url:    /blog.html

@@ -4,19 +4,19 @@ title: Projects
 ---
 <h1>{{ page.title }}</h1>
 
-{% if site.categories.current-projects %}
+{% if site.projects_current %}
 	<h2>Projects I am currently working on</h2>
 	<ul class="posts">
-	{% for post in site.categories.current-projects %}
+	{% for post in site.projects_current %}
 		<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	</ul>
 	{% endfor %}
 {% endif %}
 
-{% if site.categories.projects %}
+{% if site.projects %}
 	<h2>Past Projects</h2>
 	<ul class="posts">
-	{% for post in site.categories.projects %}
+	{% for post in site.projects %}
 		<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>
