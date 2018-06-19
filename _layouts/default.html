@@ -5,11 +5,6 @@
 	<head>
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
-
-		{{ if page.tags }}
-			<meta name="keywords" content="{{ page.tags }}">
-		{{ endif }}
-
 	</head>
 	
 	<body>
@@ -17,7 +12,7 @@
 			<nav>
     		<ul>
       		{% for link in site.data.nav-bar.nav-links %}
-        		<li class="{% if link.url == page.url %}active{% endif %}">
+        		<li class="{% if page.url contains link.url and link.url != '/' or page.url == '/' %}active{% endif %}">
         			<a href="{{ link.url }}">{{ link.title }}</a>
         		</li>
         	{% endfor %}

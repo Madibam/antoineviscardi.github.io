@@ -1,5 +1,55 @@
 name: Antoine Viscardi
 markdown: kramdown
 
-# Change permalink to blog posts to include /blog/
-# permalink: /blog/:year/:month/:day/:title
+collections_dir: collections
+
+collections:
+
+  books:
+    output: true
+
+  books_current:
+    permalink: /books/:path
+    output: true
+
+  projects:
+    output: true
+
+  projects_current:
+    permalink: /projects/:path
+    output: true
+
+  blogs:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: books
+    values:
+      layout: book
+  -
+    scope:
+      path: ""
+      type: books_current
+    values:
+      layout: book
+  -
+    scope:
+      path: ""
+      type: projects
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: projects_current
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: blogs
+    values:
+      layout: post

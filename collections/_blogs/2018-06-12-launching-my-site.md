@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Launching my Site"
 date: 2018-06-12
 ---
