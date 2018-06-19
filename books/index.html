@@ -4,19 +4,19 @@ title: Books
 ---
 <h1> {{ page.title }}</h1>
 
-{% if site.categories.book-current %}
+{% if site.categories.current-books %}
 	<h2>Books I am currently reading</h2>
 	<ul class="posts">
-	{% for post in site.categories.book-current %}
+	{% for post in site.categories.current-books %}
 		<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>
 {% endif %}
 
-{% if site.categories.book %}
+{% if site.categories.books %}
 	<h2>Most notable books I read</h2>
 	<ul class="posts">
-	{% for post in site.categories.book %}
+	{% for post in site.categories.books %}
 		<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>

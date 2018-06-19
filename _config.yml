@@ -2,4 +2,4 @@ name: Antoine Viscardi
 markdown: kramdown
 
 # Change permalink to blog posts to include /blog/
-permalink: /blog/:year/:month/:day/:title
+# permalink: /blog/:year/:month/:day/:title
