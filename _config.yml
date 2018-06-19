@@ -1,6 +1,8 @@
 name: Antoine Viscardi
 markdown: kramdown
 
+collections_dir: collections
+
 collections:
 
   books:

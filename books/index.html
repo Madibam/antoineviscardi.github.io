@@ -17,7 +17,7 @@ title: Books
 	<h2>Finished</h2>
 	<ul class="posts">
 	{% for post in site.books %}
-		<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }} - {{ post.author }}</a></li>
+		<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }} {% if post.author %}- {{ post.author }}{% endif %}</a></li>
 	{% endfor %}
 	</ul>
 {% endif %}
