@@ -1,7 +1,11 @@
+title: Antoine Viscardi
 name: Antoine Viscardi
 markdown: kramdown
 
 collections_dir: collections
+
+plugins:
+  - jemoji
 
 collections:
 

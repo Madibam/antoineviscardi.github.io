@@ -4,7 +4,8 @@ title: Books
 ---
 <h1> {{ page.title }}</h1>
 
-{% if site.books_current %}
+{% assign size = site.books_current | size %}
+{% if size != 0 %}
 	<h2>Currently reading</h2>
 	<ul class="posts">
 	{% for post in site.books_current %}
@@ -13,7 +14,8 @@ title: Books
 	</ul>
 {% endif %}
 
-{% if site.books %}
+{% assign size = site.books | size %}
+{% if size != 0 %}
 	<h2>Finished</h2>
 	<ul class="posts">
 	{% for post in site.books %}
