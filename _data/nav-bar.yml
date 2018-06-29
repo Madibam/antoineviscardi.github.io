@@ -2,18 +2,24 @@ nav-links:
 
   - title:  Home
     url:    /
+    icon:   home
 
   - title:  About
     url:    /about/
+    icon:   user
 
   - title:  CV
     url:    /cv/
+    icon:   file
 
   - title:  Books
     url:    /books/
+    icon:   book
 
   - title:  Projects
     url:    /projects/
+    icon:   wrench
 
   - title:  Blog
     url:    /blogs/
+    icon:   comment 

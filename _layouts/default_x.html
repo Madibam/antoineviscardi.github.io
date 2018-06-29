@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	
+	<body class="main-container">
+		<header>
+			<nav>
+        		<ul>
+          		{% for link in site.data.nav-bar.nav-links %}
+            		<li class="{% if page.url contains link.url and link.url != '/' or page.url == '/' %}active{% endif %}">
+            			<a href="{{ link.url }}">{{ link.title }}</a>
+            		</li>
+            	{% endfor %}
+        		</ul>
+			</nav>
+		</header>
+
+		<main>
+			{{ content }}
+		</main>
+			
+		<footer>
+  		<ul>
+    		<li>
+    			<a href="mailto:antoine.viscardi@gmail.com">antoine.viscardi@gmail.com</a>
+    		</li>
+    		<li>
+    			<a href="https://github.com/antoineviscardi">github.com/antoineviscardi</a>
+    		</li>
+			</ul>
+		</footer>
+
+	</body>
+
+</html>
+
+
