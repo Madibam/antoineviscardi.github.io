@@ -7,6 +7,20 @@ title: Books
 {% assign size = site.data.books.current | size %}
 {% if size > 0 %}
 	<h2>Currently Reading</h2>
+	<div class="grid-container">
+		{% for book in site.data.books.current %}
+		<div class="card">
+			{% capture img-path %}/assets/img-books/{{ book.title | downcase | replace:' ','-' | append:'.jpg' }}{% endcapture %}
+			<img class="card-img" src="{{ img-path | absolute_url }}">
+		</div>
+		{% endfor %}
+	</div>
+{% endif %}
+
+<!-- 
+{% assign size = site.data.books.current | size %}
+{% if size > 0 %}
+	<h2>Currently Reading</h2>
 	<ul class="posts">
 
 	{% for book in site.data.books.current %}
@@ -44,4 +58,4 @@ title: Books
 		</li>
 	{% endfor %}
 	</ul>
-{% endif %}
+{% endif %} -->

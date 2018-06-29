@@ -5,38 +5,41 @@
 	<head>
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Catamaran|Lora" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	
-	<body>
-		<header class="margins">
-			<nav>
-    		<ul>
-      		{% for link in site.data.nav-bar.nav-links %}
-        		<li class="{% if page.url contains link.url and link.url != '/' or page.url == '/' %}active{% endif %}">
-        			<a href="{{ link.url }}">{{ link.title }}</a>
-        		</li>
-        	{% endfor %}
-    		</ul>
-			</nav>
+	<body class="main-container">
+		<header class="header img-header-font background-color-main">
+			<!-- <img class="img-header" src="/assets/img/r2d2.png"> -->
+            <i class="fa fa-grav text-color-white text-shadow"></i>
 		</header>
 
-		<main class="margins">
-			{{ content }}
+        <nav class="nav background-color-main text-color-white font-big text-shadow">
+            <ul class="list-sidebar">
+                {% for link in site.data.nav-bar.nav-links %}
+                    <li class="{% if page.url contains link.url and link.url != '/' or page.url == '/' %}active{% endif %}">
+                        <a class="link-navbar nav-padding" href="{{ link.url }}"><i class="fa fa-{{ link.icon }} icon-tab"></i>{{ link.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+
+            <hr class="light-line nav-padding">
+        </nav>
+
+		<main class="main">
+            <div class="main-content">
+    			{{ content }}
+            </div>
 		</main>
 			
-		<footer class="margins">
-  		<ul>
-    		<li>
-    			<a href="mailto:antoine.viscardi@gmail.com">antoine.viscardi@gmail.com</a>
-    		</li>
-    		<li>
-    			<a href="https://github.com/antoineviscardi">github.com/antoineviscardi</a>
-    		</li>
-			</ul>
+		<footer class="footer background-color-main text-color-white text-shadow separation-top">
+  		    <ul class="list-sidebar">
+                <li><a class="link-navbar nav-padding" href="mailto:antoine.viscardi@gmail.com"><i class="fa fa-envelope icon-tab"></i>antoine.viscardi@gmail.com</a></li>
+                <li><a class="link-navbar nav-padding" href="https://github.com/antoineviscardi"><i class="fa fa-github icon-tab"></i>github.com/antoineviscardi</a></li>
+            </ul>
 		</footer>
-
 	</body>
-
 </html>
 
 
