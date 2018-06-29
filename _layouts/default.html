@@ -11,11 +11,11 @@
 	
 	<body class="main-container">
 		<header class="header img-header-font background-color-main">
-			<!-- <img class="img-header" src="/assets/img/r2d2.png"> -->
-            <i class="fa fa-grav text-color-white text-shadow"></i>
+            <i class="fa fa-grav text-color-white text-shadow center-item"></i>
 		</header>
 
         <nav class="nav background-color-main text-color-white font-big text-shadow">
+            <hr class="light-line-top nav-padding">
             <ul class="list-sidebar">
                 {% for link in site.data.nav-bar.nav-links %}
                     <li class="{% if page.url contains link.url and link.url != '/' or page.url == '/' %}active{% endif %}">
@@ -23,8 +23,7 @@
                     </li>
                 {% endfor %}
             </ul>
-
-            <hr class="light-line nav-padding">
+            <hr class="light-line-bottom nav-padding">
         </nav>
 
 		<main class="main">
