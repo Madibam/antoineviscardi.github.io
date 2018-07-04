@@ -10,20 +10,20 @@
 	</head>
 	
 	<body class="main-container">
-		<header class="header img-header-font background-color-main">
-            <i class="fa fa-grav text-color-white text-shadow center-item"></i>
+		<header class="header">
+            <img src="{{ 'assets/img/profile.png' | absolute_url }}">
 		</header>
 
-        <nav class="nav background-color-main text-color-white font-big text-shadow">
-            <hr class="light-line-top nav-padding">
-            <ul class="list-sidebar">
+        <nav class="nav">
+            <hr class="light-line-top">
+            <ul>
                 {% for link in site.data.nav-bar.nav-links %}
-                    <li class="{% if page.url contains link.url and link.url != '/' or page.url == '/' %}active{% endif %}">
-                        <a class="link-navbar nav-padding" href="{{ link.url }}"><i class="fa fa-{{ link.icon }} icon-tab"></i>{{ link.title }}</a>
+                    <li class="{{ link.title | downcase }} {% if page.url contains link.url and link.url != '/' or page.url == '/' %}active{% endif %}">
+                        <a href="{{ link.url }}"><i class="fa fa-{{ link.icon }} icon-tab"></i>{{ link.title }}</a>
                     </li>
                 {% endfor %}
             </ul>
-            <hr class="light-line-bottom nav-padding">
+            <hr class="light-line-bottom">
         </nav>
 
 		<main class="main">
@@ -32,10 +32,10 @@
             </div>
 		</main>
 			
-		<footer class="footer background-color-main text-color-white text-shadow separation-top">
-  		    <ul class="list-sidebar">
-                <li><a class="link-navbar nav-padding" href="mailto:antoine.viscardi@gmail.com"><i class="fa fa-envelope icon-tab"></i>antoine.viscardi@gmail.com</a></li>
-                <li><a class="link-navbar nav-padding" href="https://github.com/antoineviscardi"><i class="fa fa-github icon-tab"></i>github.com/antoineviscardi</a></li>
+		<footer class="footer">
+  		    <ul>
+                <li><a href="mailto:antoine.viscardi@gmail.com"><i class="fa fa-envelope icon-tab"></i>antoine.viscardi@gmail.com</a></li>
+                <li><a href="https://github.com/antoineviscardi"><i class="fa fa-github"></i>github.com/antoineviscardi</a></li>
             </ul>
 		</footer>
 	</body>
