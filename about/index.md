@@ -1,6 +1,12 @@
 ---
 layout: default
-title: About me
+title: Who Am I?
 ---
 # {{ page.title }}
-Currently under construction
+## Where I come from
+
+## What I love
+
+## What I beleive in
+
+## What I dream of
