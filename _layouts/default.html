@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <html>
-
 	<head>
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -10,34 +9,39 @@
 	</head>
 	
 	<body class="main-container">
-		<header class="header">
-            <img src="{{ 'assets/img/profile.png' | absolute_url }}">
-		</header>
+        <div class="side">
+    		<header class="header">
+                <div class="shadow">
+                    <img src="{{ 'assets/img/profile.png' | absolute_url }}">
+                </div>
+    		</header>
 
-        <nav class="nav">
-            <hr class="light-line-top">
-            <ul>
-                {% for link in site.data.nav-bar.nav-links %}
-                    <li class="{{ link.title | downcase }} {% if page.url contains link.url and link.url != '/' or page.url == '/' %}active{% endif %}">
-                        <a href="{{ link.url }}"><i class="fa fa-{{ link.icon }} icon-tab"></i>{{ link.title }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-            <hr class="light-line-bottom">
-        </nav>
+            <nav class="nav">
+                <hr class="light-line-top">
+                <ul>
+                    {% for link in site.data.nav-bar.nav-links %}
+                        <li class="{{ link.title | downcase }} {% if page.url contains link.url and link.url != '/' or page.url == '/' %}active{% endif %}">
+                            <a href="{{ link.url }}"><i class="fa fa-{{ link.icon }}"></i>{{ link.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+                <hr class="light-line-bottom">
+            </nav>
 
-		<main class="main">
+    		<footer class="footer">
+      		    <ul>
+                    <li><a href="mailto:antoine.viscardi@gmail.com"><i class="fa fa-envelope"></i>antoine.viscardi@gmail.com</a></li>
+                    <li><a href="https://github.com/antoineviscardi"><i class="fa fa-github"></i>github.com/antoineviscardi</a></li>
+                </ul>
+    		</footer>
+        </div>
+
+        <main class="main">
             <div class="main-content">
-    			{{ content }}
+                {{ content }}
             </div>
-		</main>
-			
-		<footer class="footer">
-  		    <ul>
-                <li><a href="mailto:antoine.viscardi@gmail.com"><i class="fa fa-envelope icon-tab"></i>antoine.viscardi@gmail.com</a></li>
-                <li><a href="https://github.com/antoineviscardi"><i class="fa fa-github"></i>github.com/antoineviscardi</a></li>
-            </ul>
-		</footer>
+        </main>
+            
 	</body>
 </html>
 
