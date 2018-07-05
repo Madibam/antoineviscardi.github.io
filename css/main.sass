@@ -1,32 +1,30 @@
 ---
 ---
-$font-main:     'Lora', 'serif'
-$font-side:     'Catamaran', 'sans-serif'
-$font-size:     '14'
-
-// $color-theme:   #33658A
-// $color-light:   #628395
-// $color-dark:    #153243
+$font-main:             'Lora', 'serif'
+$font-side:             'Catamaran', 'sans-serif'
+$font-size:             '14'
 
 $color-nav-background:  #333333
-$color-nav-home:    #EE6352    
-$color-nav-about:   #59CD90
-$color-nav-cv:      #3FA7D6
-$color-nav-books:   #FAC05E
+$color-nav-home:        #EE6352    
+$color-nav-about:       #59CD90
+$color-nav-cv:          #3FA7D6
+$color-nav-books:       #FAC05E
 $color-nav-projects:    #F38347
-$color-nav-blog:    #E08DAC
+$color-nav-blog:        #E08DAC
+$color-shadow:          #050505
 
-$color-theme:   #333333
-$color-light:   #454545
-$color-dark:    #262626
+$color-theme:           #333333
+$color-light:           #454545
+$color-dark:            #262626
 
-$color-accent:  #EDD4B2
-$color-text-light:  #EAF4D3
-$color-text-dark:   #333333
+$color-accent:          #EDD4B2
+$color-text-light:      #EAF4D3
+$color-text-dark:       #333333
 
 @import "header.sass"
 @import "nav.sass"
 @import "footer.sass"
+@import "side.sass"
 
 
 html
@@ -44,8 +42,7 @@ body
 .main-container
     display: grid
     grid-template-columns: 250px auto
-    grid-template-rows: 250px auto 1fr
-    grid-template-areas: "header main" "nav main" "footer main"
+    grid-template-areas: "side main"
 
 .main
     grid-area: main
@@ -60,6 +57,7 @@ body
 
 .main-content
     padding: 2rem 0 2rem
+    max-width: 650px
 
 .main-content p
     color: $color-text-dark
