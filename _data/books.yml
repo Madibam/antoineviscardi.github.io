@@ -1,14 +1,17 @@
 current:
+  - title: Letters from a Stoic
+    author: Seneca
   - title: The Happiness Trap
     author: Russ Harris
   - title: How to Win Friends & Influence People
     author: Dale Carnegie
+
+
+books:
   - title: Never Split the Difference
     author: Chris Voss
   - title: The Zero Marginal Cost Society
     author: Jeremy Rifkin
-
-books:
   - title: Lee Kuan Yew
     author: Graham Allison and Robert D. Blackwill
   - title: Violent Politics

@@ -18,14 +18,14 @@ $color-light:           #454545
 $color-dark:            #262626
 
 $color-accent:          #EDD4B2
-$color-text-light:      #EAF4D3
+$color-text-light:      #FFFFFF
 $color-text-dark:       #333333
 
+@import "side.sass"
 @import "header.sass"
 @import "nav.sass"
 @import "footer.sass"
-@import "side.sass"
-
+@import "books.sass"
 
 html
     height: 100%
@@ -34,10 +34,11 @@ body
     min-height: 100%
 
 .main a
-    color:  $color-theme
+    color:  $color-nav-cv
+    text-decoration: none
 
 .main a:hover
-    color: $color-light
+    text-decoration: underline
 
 .main-container
     display: grid
@@ -48,19 +49,19 @@ body
     grid-area: main
     font-family: $font-main
     font-size: 1.2rem
-    width: 80%
-    justify-self: center
+    justify-self: start
+    width: 100%
 
 body
     margin: 0
     font-family: $font-main
 
 .main-content
-    padding: 2rem 0 2rem
-    max-width: 650px
+    padding: 1rem 3rem 3rem 3rem
 
 .main-content p
     color: $color-text-dark
+
 
 .active
     background-color: $color-dark

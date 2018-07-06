@@ -11,8 +11,6 @@
     height: 100%
     width: 250px
     overflow-y: auto
-    // top: 0
-    // bottom: 0
 
 .side ul
     padding: 0
@@ -33,8 +31,12 @@
 .side a:hover
     background-color: $color-light
 
+.side a:hover i
+    transform: scale(1.2, 1.2)
+
 .side i
     min-width: 2em
+    transition: all 0.3s ease-in-out
 
 
 .side::-webkit-scrollbar
