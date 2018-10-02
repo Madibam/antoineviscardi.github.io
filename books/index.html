@@ -20,6 +20,21 @@ title: Books
 
 {% assign size = site.data.books.current | size %}
 {% if size > 0 %}
+	<h2>Want to Read</h2>
+	<div class="books-grid">
+		{% for book in site.data.books.want %}
+		<div class="books-card">
+			{% capture img-path %}/assets/img-books/{{ book.title | downcase | replace:' ','-' | remove:',' | remove:'?' | append:'.jpg' }}{% endcapture %}
+			<img class="books-img" src="{{ img-path | absolute_url }}">
+		</div>
+		{% endfor %}
+	</div>
+{% endif %}
+
+<div class="books-gap"></div>
+
+{% assign size = site.data.books.current | size %}
+{% if size > 0 %}
 	<h2>Favorites</h2>
 	<div class="books-grid">
 		{% for book in site.data.books.books %}
