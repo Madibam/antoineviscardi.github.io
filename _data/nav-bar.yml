@@ -8,8 +8,9 @@ nav-links:
     url:    /about/
     icon:   user
 
+    # Hack to open in new tab
   - title:  CV
-    url:    /cv/
+    url:    /cv/cv-antoine-viscardi.pdf" target="_blank
     icon:   file
 
   - title:  Books
