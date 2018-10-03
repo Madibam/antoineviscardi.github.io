@@ -26,6 +26,9 @@ collections:
   blogs:
     output: true
 
+  journals:
+    output: true
+
 defaults:
   -
     scope:
@@ -55,5 +58,11 @@ defaults:
     scope:
       path: ""
       type: blogs
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: journals
     values:
       layout: post
