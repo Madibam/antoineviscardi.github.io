@@ -1,8 +1,6 @@
 current:
   - title: People & Permaculture
     author: Looby Macnamara
-  - title: The Design of Everyday Things
-    author: Don Norman
 
 want:
   - title: The Moral Sayings of Publius Syrus
@@ -11,16 +9,22 @@ want:
     author: Michael Lewis
   - title: The Lean Startup
     author: Eric Ries
-  - title: Necessary Illusions
-    author: Noam Chomsky
 
 books:
+  - title: The Power of Habit
+    author: Charles Duhigg
+  - title: The Design of Everyday Things
+    author: Don Norman
   - title: Je serai un territoire fier et tu déposera tes meubles
     author: Steve Gagnon
   - title: Never Split the Difference
     author: Chris Voss
   - title: The Zero Marginal Cost Society
     author: Jeremy Rifkin
+  - title: Deep Work
+    author: Cal Newport
+  - title: So Good They Can't Ignore You
+    author: Cal Newport
   - title: Lee Kuan Yew
     author: Graham Allison and Robert D. Blackwill
   - title: Violent Politics

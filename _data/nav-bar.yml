@@ -24,3 +24,7 @@ nav-links:
   - title:  Blog
     url:    /blogs/
     icon:   comment 
+
+  - title:  Now
+    url:    /now/
+    icon:   bullseye
