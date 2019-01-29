@@ -2,7 +2,6 @@
 title: "Launching my Site"
 date: 2018-06-12
 ---
-Hello! My name is Antoine Viscardi,
 
 I finally got around to launch my website, something I wanted to do for a long time but never took the time to do. Actualy, the main *raison d'être* of this website is to create a form of accountabilty by making my goals public and consistently sharing my progress on the various projects that I undertake.
 

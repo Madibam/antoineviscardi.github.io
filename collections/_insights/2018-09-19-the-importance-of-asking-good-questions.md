@@ -1,0 +1,5 @@
+---
+title: "The Importance of Asking Good Questions"
+date: 2018-09-19
+---
+While going through one if the learning units in my bioinformatics class, I was intrigued about a part that simply states "[...] And learn to create MWEs (Minimal Working Examples)". I immediately googled the term and started reading the wikipedia page. While doing so, I thought about how explaining a concept to someone has been shown to be one of the best way to truly understand and internalize it. In the same vein, I think formulating a good question is a good way to understand a problem and can actually push you out of your stagnation. Indeed, just like explaining a complex concept, formulating a good question requires rehashing and analysing the problem from different angles in order to be able to break it down in such a way that is is easily accessible and comprehensible to the other party.

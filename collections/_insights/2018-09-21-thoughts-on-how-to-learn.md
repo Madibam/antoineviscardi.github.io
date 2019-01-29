@@ -1,0 +1,5 @@
+---
+title: "Thoughts on How to Learn"
+date: 2018-09-21
+---
+There is so much information and content published every single day. Surely, a good proportion of it is uninteresting. However, regardless of the amount of noise around us, the fact is that science progresses at a ever increasing pace. Therefore, in order to keep up, we should undoubtedly selectively consume information. However, I believe this is not enough: we should also invest time in mastering the art of learning. Indeed, our time is precious and if we want to lead fulfilling lives while devoting ourselves to a good cause, we must develop our ability to grasp and internalize concepts fast. Of course some ideas are complex and require considerable effort and pondering before we can truly understand them, but we should not get discouraged by the fast-paced society we live in. However, the faster and the more efficently we learn, to more we can learn and the more important of an impact we can have.
