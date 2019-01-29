@@ -21,9 +21,9 @@ nav-links:
     url:    /projects/
     icon:   wrench
 
-  - title:  Blog
-    url:    /blogs/
-    icon:   comment 
+  - title:  Insights
+    url:    /insights/
+    icon:   lightbulb
 
   - title:  Now
     url:    /now/

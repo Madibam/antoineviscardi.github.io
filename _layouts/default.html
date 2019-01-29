@@ -5,7 +5,7 @@
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Catamaran|Lora" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	</head>
 	
 	<body class="main-container">
@@ -21,7 +21,7 @@
                 <ul>
                     {% for link in site.data.nav-bar.nav-links %}
                         <li class="{{ link.title | downcase }} {% if page.url contains link.url and link.url != '/' or page.url == '/' %}active{% endif %}">
-                            <a href="{{ link.url }}"><i class="fa fa-{{ link.icon }}"></i>{{ link.title }}</a>
+                            <a href="{{ link.url }}"><i class="fas fa-{{ link.icon }}"></i>{{ link.title }}</a>
                         </li>
                     {% endfor %}
                 </ul>
@@ -30,8 +30,8 @@
 
     		<footer class="footer">
       		    <ul>
-                    <li><a href="mailto:antoine.viscardi@gmail.com"><i class="fa fa-envelope"></i>antoine.viscardi@gmail.com</a></li>
-                    <li><a href="https://github.com/antoineviscardi"><i class="fa fa-github"></i>github.com/antoineviscardi</a></li>
+                    <li><a href="mailto:antoine.viscardi@gmail.com"><i class="fas fa-envelope"></i>antoine.viscardi@gmail.com</a></li>
+                    <li><a href="https://github.com/antoineviscardi"><i class="fab fa-github"></i>github.com/antoineviscardi</a></li>
                 </ul>
     		</footer>
         </div>
