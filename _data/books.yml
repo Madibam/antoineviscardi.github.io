@@ -1,20 +1,18 @@
 current:
+  - title: Thinking, Fast and Slow
+    author: Daniel Kahneman
   - title: People & Permaculture
     author: Looby Macnamara
 
 want:
-  - title: The Moral Sayings of Publius Syrus
-    author: Publius Syrus, Darius Lyman Jr
-  - title: Flash Boys
-    author: Michael Lewis
-  - title: The Lean Startup
-    author: Eric Ries
 
 books:
   - title: The Power of Habit
     author: Charles Duhigg
   - title: The Design of Everyday Things
     author: Don Norman
+  - title: Sapiens
+    author: Yuval Noah Harari
   - title: Je serai un territoire fier et tu déposera tes meubles
     author: Steve Gagnon
   - title: Never Split the Difference
