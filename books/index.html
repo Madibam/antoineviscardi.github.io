@@ -18,7 +18,7 @@ title: Books
 
 <div class="books-gap"></div>
 
-{% assign size = site.data.books.current | size %}
+{% assign size = site.data.books.want | size %}
 {% if size > 0 %}
 	<h2>Want to Read</h2>
 	<div class="books-grid">
@@ -33,7 +33,7 @@ title: Books
 
 <div class="books-gap"></div>
 
-{% assign size = site.data.books.current | size %}
+{% assign size = site.data.books.books | size %}
 {% if size > 0 %}
 	<h2>Favorites</h2>
 	<div class="books-grid">
