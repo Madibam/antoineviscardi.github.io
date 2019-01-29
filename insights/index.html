@@ -1,0 +1,17 @@
+---
+layout: default
+title: Insights
+---
+<h1> {{ page.title }} </h1>
+
+{% assign size = site.insights | size %}
+
+{% if size > 0 %}
+    <ul class="posts">
+    	{% assign sorted = site.insights | sort: 'date' | reverse %}
+        {% for insight in sorted %}
+            <li><span>{{ insight.date | date_to_string }}</span> » <a href="{{ insight.url }}" title="{{ insight.title }}">{{ insight.title }}</a></li>
+            <br/>
+        {% endfor %}
+    </ul>
+{% endif %}
