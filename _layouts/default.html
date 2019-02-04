@@ -10,6 +10,7 @@
 	
 	<body class="main-container">
 
+        {{ jekyll.environment }}
         {% if jekyll.environment == 'production' %}
         {% include analytics.html %}
         {% endif %}
