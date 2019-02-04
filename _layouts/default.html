@@ -6,7 +6,7 @@
         {% if jekyll.environment == 'production' %}
         {% include analytics.html %}
         {% endif %}
-        
+
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Catamaran|Lora" rel="stylesheet">
@@ -44,6 +44,7 @@
 
         <main class="main">
             <div class="main-content">
+                {{ jekyll.environment }}
                 {{ content }}
             </div>
         </main>
