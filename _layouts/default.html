@@ -9,6 +9,11 @@
 	</head>
 	
 	<body class="main-container">
+
+        {% if jekyll.environment == 'production' %}
+        {% include analytics.html %}
+        {% endif %}
+
         <div class="side">
     		<header class="header">
                 <div class="shadow">
