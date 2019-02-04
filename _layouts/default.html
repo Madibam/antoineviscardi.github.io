@@ -2,6 +2,11 @@
 
 <html>
 	<head>
+        {{ jekyll.environment }}
+        {% if jekyll.environment == 'production' %}
+        {% include analytics.html %}
+        {% endif %}
+        
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Catamaran|Lora" rel="stylesheet">
@@ -9,11 +14,6 @@
 	</head>
 	
 	<body class="main-container">
-
-        {{ jekyll.environment }}
-        {% if jekyll.environment == 'production' %}
-        {% include analytics.html %}
-        {% endif %}
 
         <div class="side">
     		<header class="header">
