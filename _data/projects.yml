@@ -1,4 +1,8 @@
+- title:  LSTM-Attention
+  url:    https://arxiv.org/abs/1812.07699
 - title:  QuestradeAPI
-  url:   https://github.com/antoineviscardi/questradeapi
+  url:    https://github.com/antoineviscardi/questradeapi
+- title:  VGVGA
+  url:    https://github.com/antoineviscardi/VGVGA
 
   
