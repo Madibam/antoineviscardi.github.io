@@ -1,12 +1,18 @@
 current:
-  - title: Focus
-    author: Daniel Goleman
   - title: Thinking, Fast and Slow
     author: Daniel Kahneman
   - title: People & Permaculture
     author: Looby Macnamara
 
 want:
+  - title: The Power Broker
+    author: Robert A. Caro
+  - title: Focusing
+    author: Eugene T. Gendlin
+  - title: Give and Take
+    author: Adam Grant
+  - title: The Attention Economy
+    author: Thomas H. Davenport & John C. Beck
   - title: Discover Your True North
     author: Bill George, David Gergen
   - title: Team of Rivals
@@ -15,6 +21,8 @@ want:
     author: Robert A. Caro
 
 books:
+  - title: Focus
+    author: Daniel Goleman
   - title: The Power of Habit
     author: Charles Duhigg
   - title: The Design of Everyday Things
