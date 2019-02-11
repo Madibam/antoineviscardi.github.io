@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Who Am I?
+title: About me
 ---
 # {{ page.title }}
 
