@@ -1,0 +1,7 @@
+---
+title: Learning Deeply and Problem Solving
+date: 2019-02-14
+---
+While reading [Thinking, Fast and Slow](https://www.amazon.ca/dp/0385676530/ref=cm_sw_em_r_mt_dp_U_4FqzCb9GN5MGX) from Kahneman, I had an insight about why learning deeply about different concepts is so critical to becoming an effective problem solver. The key lies in our focusing ability. 
+
+Most of the time, we are operating in automatic mode: our fast, effortless and intuitive brain drives us through the day. However, when we really need or want to, we can consciously take control and focus our attention on a specific task. The problem is that this requires self-control and substantial effort. Moreover, it was shown that our willpower depletes throughout the day as we use it. This means that, without realizing it, we often rely on our intuitions and it is stronger than us. Althought our intuition is right most of the time, when dealing with complex problems it usually is not. But if our mind has access to readily available knowledge disproving our intuition, it is likely to prompt us with the solution since it requires minimal effort. In other words, learning deeply makes useful knowledge available to our mind which makes actively engaging our conscious mind to defy our intuition much less effortful. This means that the more richly you learn about different concepts and ideas, the less likely you are to fall for your own cognitive biases and the more effective you will be at solving complex problems.
